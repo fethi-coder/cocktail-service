@@ -1,0 +1,5 @@
+<section *ngFor="let cocktails of listeCocktail">
+<p>nom du cocktail : {{cocktails.nom}}</p>
+<p>prix du cocktail : {{cocktails.price}} €</p>
+<img [src]="cocktails.img" alt="voilà">
+</section>
